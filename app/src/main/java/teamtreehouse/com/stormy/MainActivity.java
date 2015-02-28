@@ -67,7 +67,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private void getForecast(double latitude, double longitude) {
-        String apiKey = "27974c4bc33201748eaf542a6769c3b7";
+        String apiKey = "7ce75f45ccabd1fbb3c87cd094beef3b";
         String forecastUrl = "https://api.forecast.io/forecast/" + apiKey +
                 "/" + latitude + "," + longitude;
 
